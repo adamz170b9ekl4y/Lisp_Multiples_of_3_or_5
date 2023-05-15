@@ -1,0 +1,17 @@
+(defvar x 0)
+(defvar y 1)
+(defvar evensum 0)
+(defvar temp 0)
+(defun advancefib ()
+	(setq temp (+ x y))
+	(setq x y)
+	(setq y temp)
+	(if (= (mod temp 2) 0)
+		(setq evensum (+ evensum temp))
+	)
+)
+
+(loop
+	do (advancefib)
+	(when (>= temp 4000000) (return evensum))
+)
