@@ -8,4 +8,5 @@
 	(setq x (+ x 1))
 	(when (>= x y) (return s))
 	)
-
+(princ "The Sum of all multiples of 3 or 5 below 1000 is: ")
+(write s)
