@@ -15,3 +15,5 @@
 	do (advancefib)
 	(when (>= temp 4000000) (return evensum))
 )
+(princ"The sum of the even-value Fibonacci Sequence which does not exceed 4 million: ")
+(write evensum)
