@@ -7,5 +7,6 @@ Current Problems Solved
 5: Smallest Multiple
 6: Sum Square Difference
 7: 10001th Prime
+8: Largest Product in a Series
 10: Summation of Primes
 16: Power Digit Sum
