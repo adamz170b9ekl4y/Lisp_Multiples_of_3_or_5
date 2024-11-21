@@ -10,4 +10,6 @@ Current Problems Solved
 7: 10001th Prime
 8: Largest Product in a Series
 10: Summation of Primes
+13: Large Sum
+14: Longest Collatz Sequence
 16: Power Digit Sum
